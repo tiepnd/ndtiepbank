@@ -14,3 +14,11 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  config:
+    import:
+      - "application_dev.yml"
+      - "application_stag.yml"
+      - "application_prod.yml"
+  profiles:
+    active:
+      - "dev"

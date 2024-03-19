@@ -1,6 +1,7 @@
 services:
   accounts:
-    image: "nguyenductiep/accounts"
+    build: ./accounts
+    image: nguyenductiep/accounts
     container_name: account-ms
     ports:
       - "8080:8080"
@@ -11,7 +12,8 @@ services:
     networks:
       - ndtiepbank-net
   loans:
-    image: "nguyenductiep/loans"
+    build: ./loans
+    image: nguyenductiep/loans
     container_name: loans-ms
     ports:
       - "8090:8090"
@@ -22,7 +24,8 @@ services:
     networks:
       - ndtiepbank-net
   cards:
-    image: "nguyenductiep/cards"
+    build: ./cards
+    image: nguyenductiep/cards
     container_name: cards-ms
     ports:
       - "9000:9000"

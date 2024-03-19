@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "stag"
+
+build:
+  version: "1.0"
+
+cards:
+  message: "Welcome to NdtiepBank cards related stag APIs "
+  contactDetails:
+    name: "Tiep Nguyen - Web Developer"
+    email: "ndtiep@lgcns.com"
+  onCallSupport:
+    - 123333312312
+    - 12312331123

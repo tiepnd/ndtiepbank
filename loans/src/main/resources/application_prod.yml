@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "1.0"
+
+loans:
+  message: "Welcome to NdtiepBank loans related prod APIs "
+  contactDetails:
+    name: "Tiep Nguyen - Web Developer"
+    email: "ndtiep@lgcns.com"
+  onCallSupport:
+    - 123333312312
+    - 12312331123
